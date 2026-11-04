@@ -1,0 +1,20 @@
+---
+title: "prac1-part 3 & 4"
+author: "Alice"
+---
+```{r}
+round(3.4356, digit = 2)
+```
+```{r}
+print(seq(2, 10, 3))
+```
+```{r}
+print(rep(7, 5))
+rep(())
+```
+```{r}
+whatsmynumber <- 1
+whatsmynumber <- 5
+print(whatsmynumber)
+```
+
