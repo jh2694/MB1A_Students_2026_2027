@@ -18,3 +18,14 @@ whatsmynumber <- 5
 print(whatsmynumber)
 ```
 
+```{r}
+install.packages("fortunes")
+```
+
+```{r}
+library(fortunes)
+fortune()
+library(tidyverse)
+library(gt)
+```
+
