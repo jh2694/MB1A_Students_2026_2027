@@ -1,0 +1,21 @@
+---
+title: "practical 1"
+author: "Alice"
+---
+
+
+
+```{r}
+total_colony_diameter <- sum(2.2, 1.6, 3.3, 4.0)
+print(total_colony_diameter)
+```
+The total diameter of my colonies is 11.1 mm.
+
+I have a table of the elevated genes in forebrain
+```{r}
+total_elevated_genes <- sum(180, 83, 110, 57)
+print(total_elevated_genes)
+```
+Total number of elevated genes is 430.
+# This code calculates the sum of two numbers
+1 + 9
