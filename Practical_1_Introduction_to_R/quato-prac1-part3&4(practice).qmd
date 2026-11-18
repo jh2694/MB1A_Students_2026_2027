@@ -28,4 +28,52 @@ fortune()
 library(tidyverse)
 library(gt)
 ```
+library(tidyverse)
+library(gt)
+```{r}
+nice_food <- c("cheese", "beans", "potatoes")
+
+print(nice_food[1])
+```
+
+
+
+```{r}
+my_data_frame <- tibble(
+length = c(22, 30, 55),
+  weight = c(150, 165, 170)
+)
+
+
+print(my_data_frame)  
+gt(my_data_frame)
+```
+```{r}
+weather <- read_csv("data/weather_data.csv", show_col_types = FALSE)
+
+```
+
+
+```{r}
+spec(weather)
+```
+```{r}
+ggplot(weather, aes(
+  x = observation_time,
+  y = temperature_c
+))+
+  geom_bar(colour = "red") +
+  xlab("Date") +
+  ylab("Temp (C)") +
+  ggtitle("Temperature by Date")
+
+
+```
+  
+```{r}
+library("httr2")
+
+```
+  
+```
 
